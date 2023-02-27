@@ -1,0 +1,70 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+  table th, table td {
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  table td {
+    border: solid 1px white;
+    background-color: rgba(0, 0, 0, 0.156);
+  }
+
+  table th {
+    background-color:black;
+    color: white;
+    border: solid 1px white;
+    
+  }
+
+ .index_id {
+    width: 100px;
+ }
+
+
+ .index_name {
+    width: 200px;
+ }
+
+ .index_detail_button {
+    width: 80px;
+ }
+
+ a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+ }
+
+ a:hover {
+    background-color: rgb(114, 114, 114);
+ }
+
+ h1 {
+    text-align: center;
+ }
+
+ footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0 20px;
+    width: 100%;
+    background-color: rgb(203, 203, 203);
+    border-radius: 5px;
+ }
+
+ footer div {
+    text-align: center;
+ }

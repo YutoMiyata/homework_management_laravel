@@ -1,0 +1,58 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+table th,td {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+
+table th {
+    width: 50px;
+    background-color: black;
+    color: white;
+}
+
+table td {
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.156);
+}
+
+
+a , button {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+ }
+
+ a:hover,button:hover {
+    background-color: rgb(114, 114, 114);
+ }
+
+ button {
+    border: none;
+    padding: 10px 20px;
+ }
+ h1 {
+    text-align: center;
+ }
+
+ footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+ }
+
+ .show_edit_button {
+    margin: 0 40px;
+ }
