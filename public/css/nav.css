@@ -1,0 +1,14 @@
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+nav h3 {
+    color: white;
+    font-size: 25px;
+}
+
