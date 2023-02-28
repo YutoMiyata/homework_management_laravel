@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('/css/nav.css')  }}" >
+    <link rel="stylesheet" href="{{ asset('/css/style.css')  }}" >
+    <link rel="stylesheet" href="{{ asset('/css/show.css')  }}" >
+    <link rel="stylesheet" href="{{ asset('/css/form.css')  }}" >
+    <link rel="stylesheet" href="{{ asset('/css/footer.css')  }}" >
 </head>
 <body>
     <nav>
@@ -18,5 +22,8 @@
         </ul>  
     </nav>
     {{ $slot }}
+    <footer>
+        <p>admin:YutoMiyata</p>
+    </footer>
 </body>
 </html>
