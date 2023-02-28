@@ -26,10 +26,10 @@
         @endforeach
     </table>
 
-    <footer>
+    {{-- <footer>
         <div>
             <a href="{{route('homework.create')}}">新規</a>
         </div>
-    </footer>
+    </footer> --}}
 </body>
 </html>

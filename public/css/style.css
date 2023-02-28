@@ -56,15 +56,4 @@ table {
     text-align: center;
  }
 
- footer {
-    position: fixed;
-    bottom: 0;
-    padding: 20px 0 20px;
-    width: 100%;
-    background-color: rgb(203, 203, 203);
-    border-radius: 5px;
- }
-
- footer div {
-    text-align: center;
- }
+ 
