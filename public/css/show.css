@@ -46,7 +46,7 @@ a , button {
     text-align: center;
  }
 
- footer {
+.show_buttons {
     display: flex;
     align-items: center;
     justify-content: center;

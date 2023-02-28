@@ -3,8 +3,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding:10px 40px;
     border-radius: 5px;
+    margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
 }
 
 nav h3 {
@@ -12,7 +15,9 @@ nav h3 {
     font-size: 25px;
 }
 
-
+nav ul {
+    margin-right: 70px;
+}
 .nav_list:hover {
     background-color: black;
     color: rgb(188, 188, 188);
