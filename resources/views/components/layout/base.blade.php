@@ -9,10 +9,13 @@
 </head>
 <body>
     <nav>
-        <h3>宿題管理システム</h3>
-        <div>
-            <a href="{{ route('homework.create')}}">新規作成</a>
-        </div>
+        <h3><a href="{{ route('homework.index')}}" class="nav_list nav_title">宿題管理システム</a></h3>
+        <ul>
+            <li>
+                <a href="{{ route('homework.index')}}" class="nav_list">一覧</a>
+                <a href="{{ route('homework.create')}}" class="nav_list">新規作成</a>
+            </li>
+        </ul>  
     </nav>
     {{ $slot }}
 </body>

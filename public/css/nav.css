@@ -12,3 +12,12 @@ nav h3 {
     font-size: 25px;
 }
 
+
+.nav_list:hover {
+    background-color: black;
+    color: rgb(188, 188, 188);
+}
+
+.nav_title:hover {
+    color: white;
+}
